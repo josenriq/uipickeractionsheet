@@ -86,7 +86,7 @@
     [self.sheet
      setBounds:CGRectMake(0, 0,
                           self.containerView.frame.size.width,
-                          self.containerView.window.frame.size.height + 11)];
+                          self.sheet.frame.size.height + 478.0)];
     
     // Reload and select first item
     [self.picker reloadComponent:0];
